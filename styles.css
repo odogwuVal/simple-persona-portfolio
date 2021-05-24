@@ -15,7 +15,6 @@ body {
     position: relative; 
 }
 .topnav {
-    /*display: flex;*/
     justify-content: flex-start;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.247);
@@ -53,10 +52,6 @@ ul {
 a {
     text-decoration: none;
 }
-/*.logo img {
-    height: 45px;
-    margin: auto 40px;
-}*/
 .icon {
     display: none;
 }
@@ -71,21 +66,21 @@ a {
     }
     .topnav .icon:hover {
         background-color: #585b5b;
+
     }
 }
 @media screen and (max-width: 600px) {
     .topnav.responsive .menu {
         position: absolute;
-        /*flex-direction: column;*/
        display: inline;
         
     }
-   /* .topnav.responsive .icon {
+    .topnav.responsive .icon {
     position: relative;
     right: 0;
     top: 50;
     transition: all ease 0.1s;
-  }*/
+  }
     .topnav.responsive .menu li {
     float: none;
     display: block;
