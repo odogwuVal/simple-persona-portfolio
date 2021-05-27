@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>
             My Personal Website
         </title>
@@ -18,10 +22,10 @@
                 </a-->
                 <!--menu-->
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#subject">Contact</a></li>
                 </ul>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             </nav>
@@ -31,11 +35,124 @@
                 <div class="myimage">
                     <img src="images/model.jpg" alt="a model of valentine">
                 </div>
-                <div class="intro-text">
-                    <h1>Hi! I am Valentine</h1>
-                    <P>I am open minded and dedicated. But most importantly, i am a fellow at theBulb Africa,
-                        and i am of the DevOps track. I am so excited to share my experiences on this beautiful
-                        journey into DevOps with you.</P>
+                <div class="intro-text" id="about">
+                    <h1>About</h1>
+                    <P>Hi! I am Madu Valentine, a Metallurgical and materials Engineer as well as 
+                        an <bold>ASNT</bold> level II certified Non destructive testing (NDT)
+                        inspector with proficiency in the principles 
+                        and applications of non destructive testing techniques and methods in testing pipes, 
+                        pressure vessels,
+                        heat exchangers, storage tanks and structures, 
+                        using relevant international codes and standards such as ASME,
+                        AWS among others. A strong ability to multitask, 
+                        a proactive team player, 
+                        a goal oriented and focused individual. Oh! i failed to mention,
+                        I am currently  transitioning into software Engineering.</P>
+                </div>
+            </div>
+            <div id="skill-set">
+                <h1>SKILLS</h1>
+                <div id="skill">
+                    <div class="skill-content">
+                        <img src="images/paut.jpg" class="paut">
+                        <h3>Phased array ultrasonic testing</h3>
+                        <p>Phased Array is an ultrasonic testing 
+                            technique that uses specialized multi-element “array” transducers 
+                            and pulses those elements separately in a patterned sequence 
+                            called “phasing”. This phasing sequence allows wave steering, 
+                            focusing, and scanning. 
+                            This is all performed electronically.</p>
+                    </div>
+                    <div class="skill-content">
+                        <img src="images/tofd.jpg">
+                        <h3>Time Of flight diffraction technique</h3>
+                        <p>Time of flight diffraction is an advanced non-destructive testing 
+                            method used for weld inspection. Time of flight diffraction (TOFD) 
+                            is one of the most reliable non-destructive testing methods 
+                            in testing welds for both pre-service and in-service inspection.</p>
+                    </div>
+                    <div class="skill-content">
+                        <img src="images/lrut.jpeg">
+                        <h3>Long range ultrasonic testing</h3>
+                        <p>Long Range Ultrasonic Testing (LRUT) is an advanced 
+                            nondestructive examination technique that was developed for testing 
+                            large volumes of material from a single test point.
+                            to identify areas of corrosion or erosion for further 
+                            evaluation using other NDT techniques such as 
+                            radiography or conventional ultrasonic inspection.</p>
+                    </div>
+                    <div class="skill-content">
+                        <img src="images/ut.jpg">
+                        <h3>Conventional Ultrasonic testing</h3>
+                        <p>Ultrasonic methods of NDT use beams of mechanical waves (vibrations) 
+                            of short wavelength and high-frequency, transmitted from a small 
+                            probe and detected by the same or other probes. 
+                            Such mechanical waves can travel large distances in fine-grain metal, 
+                            in the form of a divergent wave with progressive attenuation.</p>
+                    </div>
+                </div>
+            </div>
+            <section id="projects">
+                <div class="list-of-projects">
+                    <div class="project-content">
+                        <h3>Construction of LPG sphere gas storage tanks</h3>
+                        <p>Lead the NDT that carried out PAUT, MPI and DPI inspections for CAKASA
+                            Nig company ltd.<br>
+                            The project lasted for 4 months and was duely completed <br>
+                            11/01/2021 - 28/04/2021</p>
+                    </div>
+                    <div class="project-content">
+                        <h3>Escravous fso mooring systems inspection and repair</h3>
+                        <p>Carried out conventional ultrasonic testing for Chevron Nigeria limited
+                            in Porthacourt, Rivers state.<br>
+                            this project was duely completed after three days.<br>
+                            11/11/2020 - 14/11/2020</p>
+                    </div>
+                    <div class="project-content">
+                        <h3>Re-assmebly of Mudmat frame</h3>
+                        <p>Carried out Ultrasonic testing and magnetic particle inspection
+                            for Total E&P Nigeria limited in Lagos state.<br>
+                            This project was duely completed after three days.<br>
+                            10/09/2020 - 13/09/2020</p>
+                    </div>
+                    <div class="project-content">
+                        <h3>LBCS by-pass Pipeline</h3>
+                        <p>Carried out Phased array Ultrasonic testing and 
+                            long rage ultrasonic testing for West african Gas Pipeline Company in Lagos state.<br>
+                            This project was duely completed after one weeks.<br>
+                            11/08/2020 - 17/08/2020</p>
+                    </div>
+                </div>
+
+            </section>
+        <section class="contacts">
+            <div class="social-media-icons">
+                <h4>Contact</h4>
+                <p>www.maduvalentine8@gmail.com<br>
+                plot 114 cooperative layouyt, housing Estate, Enugu.<br>
+                    08160482436</p>
+
+                <div class="icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="message">
+                    <form action="action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="your first name">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="your last name">
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="write your message" style="height: 200px;">
+                        </textarea>
+                        <div class="button">
+                        <input type="submit" value="submit">
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
